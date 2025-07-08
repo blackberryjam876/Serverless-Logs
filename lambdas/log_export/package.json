@@ -1,0 +1,9 @@
+{
+  "name": "log-export",
+  "version": "1.0.0",
+  "description": "Lambda to export CloudWatch Logs to S3",
+  "main": "index.js",
+  "dependencies": {
+    "aws-sdk": "^2.989.0"
+  }
+}
