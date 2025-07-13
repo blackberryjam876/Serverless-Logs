@@ -6,7 +6,7 @@ Why “Serverless”?
 -No servers to manage: You don’t provision, update, or scale any log-collection servers, ElasticSearch nodes, or database instances yourself.
 -Automatic scaling: Lambdas automatically handle spikes in log volume, and S3 simply scales to your storage needs.
 -Cost efficiency: You pay only for the compute time your Lambdas use, and for S3 storage/requests, rather than for always-on servers.
--Simplified operations: You rely on AWS to maintain the underlying infrastructure—OS updates, patching, HA, etc. so your team can focus on building features.
+-Simplified operations: You rely on AWS to maintain the underlying infrastructure, OS updates, patching, HA, etc. so your team can focus on building features.
 
 Example Flow:
 -CloudWatch Logs collects application logs.
